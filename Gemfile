@@ -14,6 +14,7 @@ gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem 'font-awesome-rails'
 gem 'stripe'
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 
 # Use Puma as the app server
