@@ -15,6 +15,9 @@ gem 'devise-bootstrap-views'
 gem 'font-awesome-rails'
 gem 'stripe'
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+gem 'carrierwave', '~> 1.0'     # Upload images
+gem 'mini_magick'               # Resize images
+gem 'fog'
 
 
 # Use Puma as the app server
